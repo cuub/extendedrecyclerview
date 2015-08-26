@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ExtendedRecyclerView</string>
+    <string name="empty_data">No data to show</string>
+</resources>
