@@ -143,6 +143,10 @@ public class ExtendedRecyclerView extends FrameLayout {
     recyclerView.removeItemDecoration(itemDecoration);
   }
 
+  public RecyclerView.LayoutManager getLayoutManager() {
+    return recyclerView.getLayoutManager();
+  }
+
   public void smoothScrollBy(int dx, int dy) {
     recyclerView.smoothScrollBy(dx, dy);
   }
