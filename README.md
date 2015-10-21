@@ -25,9 +25,9 @@ Replace the regular RecyclerView and SwipeRefreshLayout with ExtendedRecyclerVie
 #### JAVA
 
 ```java
-	extendedRecyclerView(itemsAdapter);
-	extendedRecyclerView.setOnRefreshListener(this);
-	extendedRecyclerView.setRefreshEnabled(true || false);
+extendedRecyclerView(itemsAdapter);
+extendedRecyclerView.setOnRefreshListener(this);
+extendedRecyclerView.setRefreshEnabled(true || false);
 ```
 
 ## License
